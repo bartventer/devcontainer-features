@@ -1,62 +1,62 @@
 {
-    "id": "terraform",
-    "version": "0.1.0",
-    "name": "Terraform, tflint, and TFGrunt",
-    "documentationURL": "https://github.com/bartventer/devcontainer-features/tree/main/src/terraform",
-    "description": "Installs the Terraform CLI and optionally Terragrunt and TFLint. Auto-detects latest version and installs needed dependencies.",
-    "options": {
-        "installTerragrunt": {
-            "type": "boolean",
-            "default": true,
-            "description": "Install Terragrunt, a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules"
-        },
-        "tflint": {
-            "type": "string",
-            "proposals": [
-                "latest",
-                "0.47.0",
-                "0.46.1"
-            ],
-            "default": "latest",
-            "description": "Tflint version (https://github.com/terraform-linters/tflint/releases)"
-        },
-        "installSentinel": {
-            "type": "boolean",
-            "default": false,
-            "description": "Install sentinel, a language and framework for policy built to be embedded in existing software to enable fine-grained, logic-based policy decisions"
-        },
-        "installTFsec": {
-            "type": "boolean",
-            "default": false,
-            "description": "Install tfsec, a tool to spot potential misconfigurations for your terraform code"
-        },
-        "installTerraformDocs": {
-            "type": "boolean",
-            "default": false,
-            "description": "Install terraform-docs, a utility to generate documentation from Terraform modules"
-        },
-        "httpProxy": {
-            "type": "string",
-            "default": "",
-            "description": "Connect to a keyserver using a proxy by configuring this option"
-        }
+  "id": "terraform",
+  "version": "1.0.0",
+  "name": "Terraform, tflint, and TFGrunt",
+  "documentationURL": "https://github.com/bartventer/devcontainer-features/tree/main/src/terraform",
+  "description": "Installs the Terraform CLI and optionally Terragrunt and TFLint. Auto-detects latest version and installs needed dependencies.",
+  "options": {
+    "installTerragrunt": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install Terragrunt, a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules"
     },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "HashiCorp.terraform",
-                "ms-azuretools.vscode-azureterraform"
-            ],
-            "settings": {
-                "terraform.languageServer.enable": true,
-                "terraform.languageServer.args": [
-                    "serve"
-                ],
-                "azureTerraform.terminal": "integrated"
-            }
-        }
+    "tflint": {
+      "type": "string",
+      "proposals": [
+        "latest",
+        "0.47.0",
+        "0.46.1"
+      ],
+      "default": "latest",
+      "description": "Tflint version (https://github.com/terraform-linters/tflint/releases)"
     },
-    "installsAfter": [
-        "ghcr.io/bartventer/devcontainer-features/common-utils"
-    ]
+    "installSentinel": {
+      "type": "boolean",
+      "default": false,
+      "description": "Install sentinel, a language and framework for policy built to be embedded in existing software to enable fine-grained, logic-based policy decisions"
+    },
+    "installTFsec": {
+      "type": "boolean",
+      "default": false,
+      "description": "Install tfsec, a tool to spot potential misconfigurations for your terraform code"
+    },
+    "installTerraformDocs": {
+      "type": "boolean",
+      "default": false,
+      "description": "Install terraform-docs, a utility to generate documentation from Terraform modules"
+    },
+    "httpProxy": {
+      "type": "string",
+      "default": "",
+      "description": "Connect to a keyserver using a proxy by configuring this option"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "HashiCorp.terraform",
+        "ms-azuretools.vscode-azureterraform"
+      ],
+      "settings": {
+        "terraform.languageServer.enable": true,
+        "terraform.languageServer.args": [
+          "serve"
+        ],
+        "azureTerraform.terminal": "integrated"
+      }
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/bartventer/devcontainer-features/common-utils"
+  ]
 }
