@@ -7,7 +7,7 @@ Installs the AWS CLI along with needed dependencies. Useful for base Dockerfiles
 
 ```json
 "features": {
-    "ghcr.io/bartventer/devcontainer-features/aws-cli:1": {}
+    "ghcr.io/bartventer/arch-devcontainer-features/aws-cli:1": {}
 }
 ```
 
@@ -34,4 +34,4 @@ This Feature should work on recent versions of Arch Linux distributions with the
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/devcontainer-features/blob/main/src/aws-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/arch-devcontainer-features/blob/main/src/aws-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

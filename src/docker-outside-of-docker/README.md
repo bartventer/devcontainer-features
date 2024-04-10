@@ -7,7 +7,7 @@ Re-use the host docker socket, adding the Docker CLI to a container. Feature inv
 
 ```json
 "features": {
-    "ghcr.io/bartventer/devcontainer-features/docker-outside-of-docker:1": {}
+    "ghcr.io/bartventer/arch-devcontainer-features/docker-outside-of-docker:1": {}
 }
 ```
 
@@ -90,4 +90,4 @@ This Feature should work on recent versions of Arch Linux-based distributions wi
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/devcontainer-features/blob/main/src/docker-outside-of-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/arch-devcontainer-features/blob/main/src/docker-outside-of-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

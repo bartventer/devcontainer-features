@@ -7,7 +7,7 @@ Installs a set of common command line utilities, Oh My Zsh!, and sets up a non-r
 
 ```json
 "features": {
-    "ghcr.io/bartventer/devcontainer-features/common-utils:1": {}
+    "ghcr.io/bartventer/arch-devcontainer-features/common-utils:1": {}
 }
 ```
 
@@ -53,4 +53,4 @@ This project makes use of code from the [devcontainers/features](https://github.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/devcontainer-features/blob/main/src/common-utils/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/arch-devcontainer-features/blob/main/src/common-utils/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

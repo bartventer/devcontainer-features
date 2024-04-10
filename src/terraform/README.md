@@ -7,7 +7,7 @@ Installs the Terraform CLI and optionally Terragrunt and TFLint. Auto-detects la
 
 ```json
 "features": {
-    "ghcr.io/bartventer/devcontainer-features/terraform:1": {}
+    "ghcr.io/bartventer/arch-devcontainer-features/terraform:1": {}
 }
 ```
 
@@ -43,4 +43,4 @@ This Feature should work on recent versions of Arch Linux-based distributions wi
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/devcontainer-features/blob/main/src/terraform/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bartventer/arch-devcontainer-features/blob/main/src/terraform/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
