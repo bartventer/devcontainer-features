@@ -1,3 +1,5 @@
+### **IMPORTANT NOTE**
+- **Ids used to publish this Feature in the past - 'devcontainer-features/common-utils'**
 
 # Common Utilities (common-utils)
 

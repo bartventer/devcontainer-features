@@ -1,3 +1,5 @@
+### **IMPORTANT NOTE**
+- **Ids used to publish this Feature in the past - 'devcontainer-features/docker-in-docker'**
 
 # Docker (Docker-in-Docker) (docker-in-docker)
 
