@@ -16,11 +16,11 @@ Installs the Terraform CLI and optionally Terragrunt and TFLint. Auto-detects la
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | enableShellCompletion | Enable shell completions for the Terraform CLI. This will add the necessary shell completions to your shell profile. | boolean | true |
-| installTerragrunt | Install Terragrunt, a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules | boolean | true |
+| installTerragrunt | Install Terragrunt, a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules (https://github.com/gruntwork-io/terragrunt) | boolean | true |
 | tflint | Tflint version (https://github.com/terraform-linters/tflint/releases) | string | latest |
-| installSentinel | Install sentinel, a language and framework for policy built to be embedded in existing software to enable fine-grained, logic-based policy decisions | boolean | false |
-| installTFsec | Install tfsec, a tool to spot potential misconfigurations for your terraform code | boolean | false |
-| installTerraformDocs | Install terraform-docs, a utility to generate documentation from Terraform modules | boolean | false |
+| installSentinel | Install sentinel, a language and framework for policy built to be embedded in existing software to enable fine-grained, logic-based policy decisions (https://developer.hashicorp.com/sentinel) | boolean | false |
+| installTFsec | Install tfsec, a tool to spot potential misconfigurations for your terraform code (https://github.com/aquasecurity/tfsec) | boolean | false |
+| installTerraformDocs | Install terraform-docs, a utility to generate documentation from Terraform modules (https://github.com/terraform-docs/terraform-docs) | boolean | false |
 | httpProxy | Connect to a keyserver using a proxy by configuring this option | string | - |
 
 ## Customizations
